@@ -46,7 +46,7 @@ if page == "User Reviews":
 if page == "Sentiment Analysis Insights":
 
 
-    st.header("Sentiment Analysis Insights")
+    st.header("Sentiment Analysis Insights 📊 ")
 
     # 1. Overall sentiment proportions
     with st.expander("1. What is the overall sentiment of user reviews?"):
