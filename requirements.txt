@@ -1,0 +1,14 @@
+## 📄 requirements.txt
+
+Here’s a **minimal but professional dependency list** for NLP + ML + App:
+
+```txt
+numpy
+pandas
+scikit-learn
+nltk
+streamlit
+flask
+matplotlib
+seaborn
+jupyter
