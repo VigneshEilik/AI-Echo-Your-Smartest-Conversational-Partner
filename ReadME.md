@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 # ▶️ Usage
 
-* 1. Run Jupyter Notebook (Training/EDA)
+* Run Jupyter Notebook (Training/EDA)
 * jupyter notebook nlp.ipynb
 
 # 2. Run the App
