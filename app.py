@@ -16,7 +16,7 @@ with open('model/logistic_model.pkl', 'rb') as f:
 # Load preprocessed dataset with true sentiments
 df = pd.read_csv('data/cleaned_data.csv')
 
-st.set_page_config(page_title="Sentiment Analysis App", layout="wide")
+st.set_page_config(page_title="AI Echo: Your Smartest Conversational Partner", layout="wide")
 # st.title("Sentiment Analysis of User Reviews")
 
 st.sidebar.header("Navigation")
@@ -24,7 +24,7 @@ page = st.sidebar.radio("Go to",["User Reviews", "Sentiment Analysis Insights"])
 
 
 if page == "User Reviews":
-    st.title("Sentiment Analysis of User Reviews")
+    st.title("🤖 AI Echo: Your Smartest Conversational Partner")
     # st.header("")
      # Text area for user input
     user_input = st.text_area("Enter your review here 👇")
